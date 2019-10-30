@@ -158,6 +158,15 @@
       background: linear-gradient(to right,_palette(accent-green), _palette(accent-green-alt));
     }
   }
+  
+  .has-bg {
+    background-size: cover;
+    .block {
+      &.bg-accent {
+        background: #19754Cdd !important;
+      }
+    }
+  }
 }
 
 .palette-orange {

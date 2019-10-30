@@ -23,6 +23,23 @@ export default class Header extends React.Component {
                     <p className="site-title"><Link to={safePrefix('/')}>{_.get(this.props, 'pageContext.site.siteMetadata.header.title')}</Link></p>
                     }
                   </div>
+                  {(_.get(this.props, 'pageContext.menus.main') && !_.get(this.props, 'pageContext.site.siteMetadata.header.has_nav')) && <React.Fragment>
+                  <nav id="main-navigation" className="site-navigation" aria-label="Main Navigation">
+                    <div className="site-nav-inside">
+                      <ul className="menu">
+                        {_.get(this.props, 'pageContext.site.siteMetadata.header.menu.actions') && 
+                          _.map(_.get(this.props, 'pageContext.site.siteMetadata.header.menu.actions'), (action, action_idx) => (
+                          <li key={action_idx} className="menu-item menu-button">
+                            <Link to={safePrefix(_.get(action, 'url'))} className="button">{_.get(action, 'label')}</Link>
+                          </li>
+                          ))
+                        }
+                      </ul>
+                      </div>
+                  </nav>
+                  </React.Fragment>
+                  }
+
                   {(_.get(this.props, 'pageContext.menus.main') && _.get(this.props, 'pageContext.site.siteMetadata.header.has_nav')) && <React.Fragment>
                   <nav id="main-navigation" className="site-navigation" aria-label="Main Navigation">
                     <div className="site-nav-inside">
