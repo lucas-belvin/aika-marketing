@@ -16,6 +16,20 @@ sections:
   - label: Learn more
     url: https://www.getaika.com/contact
   background_image: "/images/image-from-rawpixel-id-385975-jpeg-1.jpg"
+- template: section_features
+  bg: gray
+  type: section_features
+  section_id: ''
+  title: ''
+  subtitle: ''
+  featureslist: []
+- template: section_contact
+  bg: gray
+  type: section_contact
+  section_id: ''
+  title: ''
+  subtitle: ''
+  content: ''
 menus:
   main:
     title: Home
