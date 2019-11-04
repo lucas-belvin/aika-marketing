@@ -33,7 +33,7 @@ sections:
 - template: section_herograph
   type: section_hero
   section_id: test
-  title: ''
+  title: Test
   content: ''
   actions: []
 menus:
