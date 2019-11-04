@@ -7,6 +7,7 @@ import SectionCta from './SectionCta';
 import SectionFaq from './SectionFaq';
 import SectionFeatures from './SectionFeatures';
 import SectionHero from './SectionHero';
+import SectionHerograph from './SectionHerograph';
 import SectionPosts from './SectionPosts';
 import SectionPricing from './SectionPricing';
 import SectionReviews from './SectionReviews';
@@ -24,6 +25,7 @@ export {
     SectionFaq,
     SectionFeatures,
     SectionHero,
+    SectionHerograph,
     SectionPosts,
     SectionPricing,
     SectionReviews,
@@ -42,6 +44,7 @@ export default {
     SectionFaq,
     SectionFeatures,
     SectionHero,
+    SectionHerograph,
     SectionPosts,
     SectionPricing,
     SectionReviews,

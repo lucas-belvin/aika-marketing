@@ -431,6 +431,21 @@ models:
         label: Action Buttons
         items:
           type: action
+  section_herograph:
+    type: object
+    label: Hero Graph Section
+    extends:
+      - section
+    fields:
+      - type: markdown
+        name: content
+        label: Content
+        description: The text content of the section.
+      - type: list
+        name: actions
+        label: Action Buttons
+        items:
+          type: action
   section_posts:
     type: object
     label: Posts List

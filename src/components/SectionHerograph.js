@@ -1,0 +1,147 @@
+import React from 'react';
+import _ from 'lodash';
+
+import { Line, defaults } from 'react-chartjs-2';
+
+
+import {safePrefix, markdownify, Link} from '../utils';
+
+
+
+var myData = [{
+  x: 0,
+  y: 19
+},
+{
+  x: 1,
+  y: 15
+},
+{
+  x: 2,
+  y: 3
+},
+{
+  x: 3,
+  y: 5
+},
+{
+  x: 4,
+  y: 2
+},
+{
+  x: 5,
+  y: 3
+},
+{
+  x: 6,
+  y: 1
+},
+];
+defaults.global.defaultFontColor = 'white';
+defaults.global.defaultFontSize = 16;
+
+var options = {
+  type: 'line',
+  data: {
+    datasets: [{
+      label: 'Average meeting hours per week',
+      data: [myData[0]],
+      borderWidth: 3,
+      borderColor: 'red',
+      backgroundColor: '#ff000066',
+      fill: true
+    }, ]
+  },
+  options: {
+    scales: {
+      xAxes: [{
+        type: 'linear',
+        scaleLabel: {
+          display: true,
+          labelString: 'Weeks',
+        },
+        ticks: {
+          min: 0,
+          max: 6
+        },
+        gridLines: {
+          display: false
+        }
+      }],
+      yAxes: [{
+        ticks: {
+          min: 0,
+          max: 25
+        },
+        gridLines: {
+          display: false
+        },
+        scaleLabel: {
+          display: true,
+          labelString: 'Hours',
+        },
+
+      }]
+    },
+  },
+};
+
+var next = () => {
+  console.log('tick');
+  var data = window.myChart.chartInstance.data.datasets[0].data;
+  var count = data.length;
+  data[count] = data[count - 1];
+  window.myChart.chartInstance.update({
+    duration: 0
+  });
+  data[count] = myData[count];
+  window.myChart.chartInstance.update();
+  if (count < myData.length) {
+    setTimeout(next, 1000);
+  }
+}
+
+
+
+export default class SectionHerograph extends React.Component {
+    componentDidMount() {
+      setTimeout(next, 1000);
+      // set el height and width etc.
+      console.log('test')
+    }
+
+    render() {
+        return (
+            <div className={`hero-wrapper ` + _.get(this.props, 'section.background_image') ? 'has-bg' : ''} style={{ backgroundImage: `url(${_.get(this.props, 'section.background_image')})`}}>
+              <section id={_.get(this.props, 'section.section_id')} className="block hero-block bg-accent outer" >
+                <div className="inner container">
+                  <div className="grid row"> 
+                    <div className="cell block-preview graph">
+                      <Line 
+                        data={options.data} 
+                        options={options.options}
+                        ref={(reference) => window.myChart = reference }
+                        />
+                    </div>
+                    <div className="cell block-content">
+                      {_.get(this.props, 'section.title') && 
+                      <h2 className="block-title underline">{_.get(this.props, 'section.title')}</h2>
+                      }
+                      <div className="block-copy">
+                        {markdownify(_.get(this.props, 'section.content'))}
+                      </div>
+                      {_.get(this.props, 'section.actions') && 
+                      <p className="block-buttons">
+                        {_.map(_.get(this.props, 'section.actions'), (action, action_idx) => (
+                        <Link key={action_idx} to={safePrefix(_.get(action, 'url'))} className="button white large">{_.get(action, 'label')}</Link>
+                        ))}
+                      </p>
+                      }
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+        );
+    }
+}

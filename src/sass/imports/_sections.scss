@@ -46,6 +46,10 @@
 .block-item {
   .cell {
     text-align: center;
+
+    &.graph {
+      width: 100%;
+    }
   }
 
   .underline:after {
@@ -75,6 +79,10 @@
       margin-left: 0.83333rem;
       margin-right: 0.83333rem;
       text-align: left;
+
+      &.graph {
+        width: 50%;
+      }
 
       &:only-child {
         margin-left: auto;

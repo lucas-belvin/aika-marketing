@@ -34,6 +34,6 @@ fields:
   label: Reference Type Name
   description: Name of the Stackbit object model, used by fields of type reference
   hidden: true
-  default: section_hero
+  default: section_herograph
   config:
     required: true
