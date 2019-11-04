@@ -30,6 +30,12 @@ sections:
   title: ''
   subtitle: ''
   content: ''
+- template: section_herograph
+  type: section_hero
+  section_id: test
+  title: ''
+  content: ''
+  actions: []
 menus:
   main:
     title: Home
