@@ -87,7 +87,6 @@ var options = {
 };
 
 var next = () => {
-  console.log('tick');
   var data = window.myChart.chartInstance.data.datasets[0].data;
   var count = data.length;
   data[count] = data[count - 1];
@@ -112,7 +111,7 @@ export default class SectionHerograph extends React.Component {
 
     render() {
         return (
-            <div className={`hero-wrapper ` + _.get(this.props, 'section.background_image') ? 'has-bg' : ''} style={{ backgroundImage: `url(${_.get(this.props, 'section.background_image')})`}}>
+            <div className={`hero-wrapper ` + _.get(this.props, 'section.background_image') ? 'has-bg' : '' + _.get(this.props, 'section.classes')} style={{ backgroundImage: `url(${_.get(this.props, 'section.background_image')})`}}>
               <section id={_.get(this.props, 'section.section_id')} className="block hero-block bg-accent outer" >
                 <div className="inner container">
                   <div className="grid row"> 
