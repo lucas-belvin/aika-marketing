@@ -15,6 +15,7 @@ sections:
   actions:
   - label: Learn more
     url: https://www.getaika.com/contact
+  classes: sales
 menus:
   main:
     title: Home
