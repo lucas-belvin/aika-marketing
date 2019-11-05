@@ -15,7 +15,7 @@ sections:
   actions:
   - label: Learn more
     url: https://www.getaika.com/learn-more
-  campaign: test
+  campaign: ''
   classes: ''
 - template: section_features
   bg: gray
