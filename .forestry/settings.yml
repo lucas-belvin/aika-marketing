@@ -21,6 +21,7 @@ sections:
   match: "**/*"
   exclude: "{posts/**,blog/index.md}"
   templates:
+  - landing
   - page
 - type: document
   path: src/data/menus.json
