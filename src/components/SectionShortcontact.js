@@ -26,12 +26,11 @@ export default class SectionShortcontact extends React.Component {
                     <label>Don't fill this out if you're human: <input name="bot-field" /></label>
                   </p>
                   <p className="form-row">
-                    <label className="form-label">Email address</label>
-                    <input type="email" name="email" className="form-input"/>
+                    <input type="email" name="email" placeholder='Enter Email Address...' className="form-input"/>
                   </p>
                   <input type="hidden" name="form-name" value="contactForm" />
                   <p className="form-row form-submit">
-                    <button type="submit" className="button">Send Message</button>
+                    <button type="submit" className="button">Subscribe</button>
                   </p>
                 </form>
               </div>
