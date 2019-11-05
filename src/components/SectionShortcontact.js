@@ -3,7 +3,7 @@ import _ from 'lodash';
 
 import {htmlToReact, markdownify} from '../utils';
 
-export default class SectionContact extends React.Component {
+export default class SectionShortcontact extends React.Component {
     render() {
         let section = _.get(this.props, 'section');
         return (

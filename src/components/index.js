@@ -2,6 +2,7 @@ import CtaButtons from './CtaButtons';
 import Footer from './Footer';
 import Header from './Header';
 import SectionContact from './SectionContact';
+import SectionShortcontact from './SectionShortcontact';
 import SectionContent from './SectionContent';
 import SectionCta from './SectionCta';
 import SectionFaq from './SectionFaq';
@@ -20,6 +21,7 @@ export {
     Footer,
     Header,
     SectionContact,
+    SectionShortcontact,
     SectionContent,
     SectionCta,
     SectionFaq,
@@ -39,6 +41,7 @@ export default {
     Footer,
     Header,
     SectionContact,
+    SectionShortcontact,
     SectionContent,
     SectionCta,
     SectionFaq,
