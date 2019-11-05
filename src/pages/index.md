@@ -21,7 +21,7 @@ sections:
   bg: gray
   type: section_features
   section_id: ''
-  campaign: sales
+  campaign: ''
   title: ''
   subtitle: ''
   featureslist:
