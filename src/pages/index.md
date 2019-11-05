@@ -3,7 +3,7 @@ title: Home
 sections:
 - template: section_herograph
   type: section_herograph
-  section_id: test
+  section_id: ''
   title: Understand how reps spend time. Sell more.
   content: |-
     In sales, time is money in the most literal sense. But understanding how reps spend time is no easy task. With Aika, you:
@@ -16,6 +16,14 @@ sections:
   - label: Learn more
     url: https://www.getaika.com/contact
   classes: sales
+- template: section_features
+  bg: gray
+  type: section_features
+  section_id: ''
+  classes: ''
+  title: ''
+  subtitle: ''
+  featureslist: []
 menus:
   main:
     title: Home
