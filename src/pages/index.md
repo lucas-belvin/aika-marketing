@@ -53,6 +53,21 @@ sections:
     content: Get advance warning when your team has too many distractions planned.
     image: ''
     actions: []
+- template: section_herograph
+  type: section_herograph
+  campaign: eng
+  section_id: ''
+  title: ''
+  content: ''
+  actions: []
+- template: section_features
+  bg: gray
+  type: section_features
+  section_id: ''
+  campaign: ''
+  title: ''
+  subtitle: ''
+  featureslist: []
 menus:
   main:
     title: Home
