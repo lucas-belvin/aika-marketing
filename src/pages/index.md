@@ -24,6 +24,10 @@ sections:
   title: ''
   subtitle: ''
   featureslist:
+  - title: Organizing best practices
+    content: Help your team organize effective meetings using industry best practices
+    image: ''
+    actions: []
   - title: Enhance data
     content: Send automated post-meeting surveys with Slack and email to find out
       who’s organizing unproductive internal meetings.
