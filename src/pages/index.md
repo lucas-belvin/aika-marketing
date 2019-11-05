@@ -57,8 +57,10 @@ sections:
   type: section_herograph
   campaign: eng
   section_id: ''
-  title: ''
-  content: ''
+  title: Make time. Reduce ineffective meetings.
+  content: Get full insight into the productivity of your team and use insights to
+    drive and measure efficiency improvement. Instead of doubling your engineering
+    team, first make sure you are getting the most out of your existing team.
   actions: []
 - template: section_features
   bg: gray
