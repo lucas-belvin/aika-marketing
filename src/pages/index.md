@@ -13,7 +13,7 @@ sections:
     * Set time allocation goals and manage progress over time, per rep and team-wide
   background_image: "/images/image-from-rawpixel-id-385975-jpeg-1.jpg"
   actions:
-  - label: Learn more
+  - label: Try for free
     url: "/learn-more"
   campaign: ''
   classes: ''
