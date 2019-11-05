@@ -1,7 +1,7 @@
 ---
 label: Hero Section Graph
 hide_body: true
-display_field: title
+display_field: campaign
 fields:
 - type: text
   name: section_id
