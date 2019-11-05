@@ -27,7 +27,7 @@ sections:
   - title: Enhance data
     content: Send automated post-meeting surveys with Slack and email to find out
       who’s organizing unproductive internal meetings.
-    image: "/images/feature2.png"
+    image: ''
     actions: []
   - title: Analyze
     content: Use data from reps’ calendars, email, Datahug and Salesforce to get insight
