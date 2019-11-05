@@ -21,8 +21,8 @@ sections:
   type: section_features
   section_id: ''
   classes: sales
-  title: Title
-  subtitle: subtitle
+  title: ''
+  subtitle: ''
   featureslist:
   - title: Enhance data
     content: Send automated post-meeting surveys with Slack and email to find out
