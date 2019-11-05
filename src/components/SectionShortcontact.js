@@ -30,7 +30,7 @@ export default class SectionShortcontact extends React.Component {
                   </p>
                   <input type="hidden" name="form-name" value="contactForm" />
                   <p className="form-row form-submit">
-                    <button type="submit" className="button">Subscribe</button>
+                    <button type="submit" className="button">Submit</button>
                   </p>
                 </form>
               </div>
