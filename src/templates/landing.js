@@ -11,7 +11,7 @@ const urlPropsQueryConfig = {
     c: { type: UrlQueryParamTypes.string },
 };
 
-class Landing extends React.Component {
+export default class Landing extends React.Component {
     static propTypes = {
         // URL props are automatically decoded and passed in based on the config
         c: PropTypes.string,
@@ -37,12 +37,14 @@ class Landing extends React.Component {
         } else {
             Cookies.set('c', c, { expires: 365 });
         }
-        window.analytics.ready(function() {
-            const traits = {...window.analytics.user().traits(), ...{
-                'campaign': campaign
-            }};
-            window.analytics.identify(traits);
-        });
+        if (typeof(window) !== 'undefined'){
+            window.analytics.ready(function() {
+                const traits = {...window.analytics.user().traits(), ...{
+                    'campaign': campaign
+                }};
+                window.analytics.identify(traits);
+            });
+        }
 
         return (
             <Layout {...this.props}>
@@ -63,5 +65,3 @@ class Landing extends React.Component {
         );
     }
 }
-
-export default addUrlProps({ urlPropsQueryConfig })(Landing);
