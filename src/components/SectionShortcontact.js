@@ -20,7 +20,7 @@ export default class SectionShortcontact extends React.Component {
               </div>
               <div className="block-content inner-medium">
                 {markdownify(_.get(section, 'content'))}
-                <form name="contactForm" method="POST" netlifyHoneypot="bot-field" data-netlify="true" id="contact-form"
+                <form name="shortContactForm" method="POST" netlifyHoneypot="bot-field" data-netlify="true" id="short-contact-form"
                   className="contact-form">
                   <p className="screen-reader-text">
                     <label>Don't fill this out if you're human: <input name="bot-field" /></label>
@@ -28,7 +28,7 @@ export default class SectionShortcontact extends React.Component {
                   <p className="form-row">
                     <input type="email" name="email" placeholder='Enter Email Address...' className="form-input"/>
                   </p>
-                  <input type="hidden" name="form-name" value="contactForm" />
+                  <input type="hidden" name="form-name" value="shortContactForm" />
                   <p className="form-row form-submit">
                     <button type="submit" className="button">Submit</button>
                   </p>
