@@ -64,7 +64,7 @@ sections:
   bg: gray
   type: section_features
   section_id: ''
-  campaign: ''
+  campaign: eng
   title: ''
   subtitle: ''
   featureslist: []
