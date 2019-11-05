@@ -14,7 +14,7 @@ sections:
   background_image: "/images/image-from-rawpixel-id-385975-jpeg-1.jpg"
   actions:
   - label: Learn more
-    url: https://www.getaika.com/learn-more
+    url: /learn-more
   campaign: ''
   classes: ''
 - template: section_features

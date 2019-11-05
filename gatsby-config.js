@@ -19,7 +19,7 @@ module.exports = {
                 // boolean (defaults to false) on whether you want
                 // to include analytics.page() automatically
                 // if false, see below on how to track pageviews manually
-                trackPage: true
+                trackPage: false
             }
         },
         `gatsby-source-data`,

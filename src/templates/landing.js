@@ -34,9 +34,15 @@ class Landing extends React.Component {
         } else if (c === 'reset') {
             Cookies.remove('c');
             campaign = 'default';
-        }else {
+        } else {
             Cookies.set('c', c, { expires: 365 });
         }
+        window.analytics.ready(function() {
+            const traits = {...window.analytics.user().traits(), ...{
+                'campaign': campaign
+            }};
+            window.analytics.identify(traits);
+        });
 
         return (
             <Layout {...this.props}>

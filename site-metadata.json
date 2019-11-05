@@ -9,7 +9,7 @@
       "actions": [
         {
           "label": "Learn more",
-          "url": "https://www.getaika.com/learn-more"
+          "url": "/learn-more"
         }
       ]
     }

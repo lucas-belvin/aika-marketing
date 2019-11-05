@@ -8,7 +8,7 @@ import {safePrefix, markdownify, Link} from '../utils';
 
 
 
-var myData = [{
+var allData = [{
   x: 0,
   y: 19
 },
@@ -45,7 +45,7 @@ var options = {
   data: {
     datasets: [{
       label: 'Average meeting hours per week',
-      data: [myData[0]],
+      data: [allData[0]],
       borderWidth: 3,
       borderColor: 'red',
       backgroundColor: '#ff000066',
@@ -86,17 +86,20 @@ var options = {
   },
 };
 
-var next = () => {
-  var data = window.myChart.chartInstance.data.datasets[0].data;
-  var count = data.length;
-  data[count] = data[count - 1];
-  window.myChart.chartInstance.update({
-    duration: 0
-  });
-  data[count] = myData[count];
-  window.myChart.chartInstance.update();
-  if (count < myData.length) {
-    setTimeout(next, 1000);
+const next = () => {
+  const chart = _.get(window, 'myChart.chartInstance');
+  const data = _.get(chart, 'data.datasets[0].data');
+  if(data) {
+    const count = data.length;
+    data[count] = data[count - 1];
+    chart.update({
+      duration: 0
+    });
+    data[count] = allData[count];
+    chart.update();
+    if (count < allData.length) {
+      setTimeout(next, 1000);
+    }
   }
 }
 
@@ -105,8 +108,6 @@ var next = () => {
 export default class SectionHerograph extends React.Component {
     componentDidMount() {
       setTimeout(next, 1000);
-      // set el height and width etc.
-      console.log('test')
     }
 
     render() {
