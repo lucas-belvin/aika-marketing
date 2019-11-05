@@ -87,7 +87,7 @@ sections:
   featureslist: []
 - template: section_cta
   type: section_cta
-  title: 'Get Started! '
+  title: Try Aika now
   actions:
   - label: Get Started
     url: "/learn-more"
