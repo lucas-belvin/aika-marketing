@@ -5,7 +5,6 @@ export default function HTML(props) {
   return (
     <html {...props.htmlAttributes}>
       <head>
-        <script src="https://cdn.optimizely.com/js/16878012700.js"></script>
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>

@@ -2,6 +2,7 @@ import React from 'react';
 import _ from 'lodash';
 import PropTypes from 'prop-types';
 import { addUrlProps, UrlQueryParamTypes } from 'react-url-query';
+import Cookies from 'js-cookie';
 
 
 import components, {Layout} from '../components/index';
@@ -27,8 +28,15 @@ class Landing extends React.Component {
 
     render() {
         const { c } = this.props;
-
-        console.log(c);
+        let campaign = c;
+        if (c === 'default') {
+            campaign = Cookies.get('c') || c;
+        } else if (c === 'reset') {
+            Cookies.remove('c');
+            campaign = 'default';
+        }else {
+            Cookies.set('c', c, { expires: 365 });
+        }
 
         return (
             <Layout {...this.props}>
@@ -36,9 +44,8 @@ class Landing extends React.Component {
                 let component = _.upperFirst(_.camelCase(_.get(section, 'type')));
                 let Component = components[component];
 
-                console.log(section);
-                const campaign = _.get(section, 'campaign');
-                if ((!campaign && c === 'default') || (campaign && campaign === c)){
+                const sectionCampaign = _.get(section, 'campaign');
+                if ((!sectionCampaign && campaign === 'default') || (sectionCampaign && sectionCampaign === campaign)){
                     return (
                     <Component key={section_idx} {...this.props} section={section} site={this.props.pageContext.site} />
                     )
