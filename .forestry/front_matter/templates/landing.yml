@@ -19,6 +19,7 @@ fields:
   - section_features
   - section_hero
   - section_herograph
+  - section_shortcontact
   - section_posts
   - section_pricing
   - section_reviews
