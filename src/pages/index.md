@@ -68,6 +68,21 @@ sections:
   title: ''
   subtitle: ''
   featureslist: []
+- template: section_herograph
+  type: section_herograph
+  campaign: bi
+  section_id: ''
+  title: ''
+  content: ''
+  actions: []
+- template: section_features
+  bg: gray
+  type: section_features
+  section_id: ''
+  campaign: ''
+  title: ''
+  subtitle: ''
+  featureslist: []
 menus:
   main:
     title: Home
