@@ -14,7 +14,7 @@ sections:
   background_image: "/images/image-from-rawpixel-id-385975-jpeg-1.jpg"
   actions:
   - label: Learn more
-    url: /learn-more
+    url: "/learn-more"
   campaign: ''
   classes: ''
 - template: section_features
@@ -85,6 +85,14 @@ sections:
   title: ''
   subtitle: ''
   featureslist: []
+- template: section_cta
+  type: section_cta
+  title: 'Get Started! '
+  actions:
+  - label: Get Started
+    url: "/learn-more"
+  section_id: ''
+  subtitle: ''
 menus:
   main:
     title: Home
