@@ -87,7 +87,7 @@ sections:
   featureslist: []
 - template: section_cta
   type: section_cta
-  title: Try Aika now
+  title: Try Aika for free
   actions:
   - label: Get Started
     url: "/learn-more"
