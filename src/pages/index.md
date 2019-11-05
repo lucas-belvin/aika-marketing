@@ -20,7 +20,7 @@ sections:
   bg: gray
   type: section_features
   section_id: ''
-  classes: sales
+  classes: ''
   title: ''
   subtitle: ''
   featureslist:
