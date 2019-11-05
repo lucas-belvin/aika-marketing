@@ -79,7 +79,7 @@ sections:
   bg: gray
   type: section_features
   section_id: ''
-  campaign: ''
+  campaign: bi
   title: ''
   subtitle: ''
   featureslist: []
