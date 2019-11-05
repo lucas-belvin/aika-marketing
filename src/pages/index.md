@@ -14,18 +14,19 @@ sections:
   background_image: "/images/image-from-rawpixel-id-385975-jpeg-1.jpg"
   actions:
   - label: Learn more
-    url: https://www.getaika.com/contact
-  classes: sales
+    url: https://www.getaika.com/learn-more
+  campaign: sales
 - template: section_features
   bg: gray
   type: section_features
   section_id: ''
-  classes: sales
+  campaign: sales
   title: ''
   subtitle: ''
   featureslist:
-  - title: Organizing best practices
-    content: Help your team organize effective meetings using industry best practices
+  - title: Analyze
+    content: Use data from reps’ calendars, email, Datahug and Salesforce to get insight
+      in your team
     image: ''
     actions: []
   - title: Enhance data
@@ -33,11 +34,24 @@ sections:
       who’s organizing unproductive internal meetings.
     image: ''
     actions: []
-  - title: Analyze
-    content: Use data from reps’ calendars, email, Datahug and Salesforce to get insight
-      in your team
+  - title: Organizing best practices
+    content: Help your team organize effective meetings using industry best practices
     image: ''
     actions: []
+  - title: Minutes
+    content: Stop worrying you missed something. Meetings minutes can be browsed and searched by
+      anyone.
+    image: ''
+    actions: []
+  - title: Action items
+    content: A complete overview of all the outstanding action items per person, meeting, team or   
+      the entire organization.
+    image: ''
+    actions: [] 
+  - title: Warnings
+    content: Get advance warning when your team has too many distractions planned.
+    image: ''
+    actions: [] 
 menus:
   main:
     title: Home
