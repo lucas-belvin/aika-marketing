@@ -20,10 +20,15 @@ sections:
   bg: gray
   type: section_features
   section_id: ''
-  classes: ''
-  title: ''
-  subtitle: ''
-  featureslist: []
+  classes: sales
+  title: Title
+  subtitle: subtitle
+  featureslist:
+  - title: Analyze
+    content: Use data from reps’ calendars, email, Datahug and Salesforce to get insight
+      in your team
+    image: ''
+    actions: []
 menus:
   main:
     title: Home
