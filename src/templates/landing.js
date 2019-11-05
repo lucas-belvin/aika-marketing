@@ -51,7 +51,7 @@ class Landing extends React.Component {
                 let Component = components[component];
 
                 const sectionCampaign = _.get(section, 'campaign');
-                if ((!sectionCampaign && campaign === 'default') || (sectionCampaign && sectionCampaign === campaign)){
+                if ((!sectionCampaign) || (sectionCampaign && sectionCampaign === campaign)){
                     return (
                     <Component key={section_idx} {...this.props} section={section} site={this.props.pageContext.site} />
                     )

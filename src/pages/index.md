@@ -15,13 +15,12 @@ sections:
   actions:
   - label: Try for free
     url: "/learn-more"
-  campaign: ''
-  classes: ''
+  campaign: default
 - template: section_features
   bg: gray
   type: section_features
   section_id: ''
-  campaign: ''
+  campaign: default
   title: ''
   subtitle: ''
   featureslist:
@@ -37,6 +36,11 @@ sections:
     actions: []
   - title: Organizing best practices
     content: Help your team organize effective meetings using industry best practices
+    image: ''
+    actions: []
+  - title: Filter unnecessary meetings
+    content: Make sure you and everyone else knows why they are joining a meeting and what is 
+      expected of them.
     image: ''
     actions: []
   - title: Minutes
@@ -56,12 +60,15 @@ sections:
 - template: section_herograph
   type: section_herograph
   campaign: eng
+  background_image: "/images/image-from-rawpixel-id-385975-jpeg-1.jpg"
   section_id: ''
   title: Make time. Reduce ineffective meetings.
   content: Get full insight into the productivity of your team and use insights to
     drive and measure efficiency improvement. Instead of doubling your engineering
     team, first make sure you are getting the most out of your existing team.
-  actions: []
+  actions:
+  - label: Try for free
+    url: "/learn-more"
 - template: section_features
   bg: gray
   type: section_features
@@ -69,14 +76,60 @@ sections:
   campaign: eng
   title: ''
   subtitle: ''
-  featureslist: []
+  featureslist:
+  - title: Analyze
+    content: Use data from reps’ calendars, email, Datahug and Salesforce to get insight
+      in your team
+    image: ''
+    actions: []
+  - title: Enhance data
+    content: Send automated post-meeting surveys with Slack and email to find out
+      who’s organizing unproductive internal meetings.
+    image: ''
+    actions: []
+  - title: Organizing best practices
+    content: Help your team organize effective meetings using industry best practices
+    image: ''
+    actions: []
+  - title: Filter unnecessary meetings
+    content: Make sure you and everyone else knows why they are joining a meeting and what is 
+      expected of them.
+    image: ''
+    actions: []
+  - title: Minutes
+    content: Stop worrying you missed something. Meetings minutes can be browsed and
+      searched by anyone.
+    image: ''
+    actions: []
+  - title: Action items
+    content: A complete overview of all the outstanding action items per person, meeting,
+      team or the entire organization.
+    image: ''
+    actions: []
+  - title: Standup support
+    content: Tooling available for every type of agile meeting. Store and fill in standup notes and 
+      show related lines of committed code
+    image: ''
+    actions: []
+  - title: Warnings
+    content: Get advance warning when your team has too many distractions planned.
+    image: ''
+    actions: []
 - template: section_herograph
   type: section_herograph
+  background_image: "/images/image-from-rawpixel-id-385975-jpeg-1.jpg"
   campaign: bi
   section_id: ''
-  title: ''
-  content: ''
-  actions: []
+  title: Data made easy. Personal Business Intelligence'
+  content: |-
+    Get insight into all the data available.
+
+    * Use the power of community to get insight in your data
+    * Easily share your insights on our marketplace
+    * Apply analysis to the data you have access to
+  actions:
+  - label: Try for free
+    url: "/learn-more"
 - template: section_features
   bg: gray
   type: section_features
@@ -84,7 +137,29 @@ sections:
   campaign: bi
   title: ''
   subtitle: ''
-  featureslist: []
+  featureslist:
+  - title: Pre-built analysis
+    content: Use analyses built by the Aika team and by the Aika community to quickly extract 
+      meaning from your data.
+    image: ''
+    actions: []
+  - title: Marketplace
+    content: Build an analysis on your data and share the analysis (but not your data) so others can apply it to their own data
+    image: ''
+    actions: []
+  - title: Builtin BI
+    content: Get access to an easy to use BI interface, already connected to a personal database 
+      created for you
+    image: ''
+    actions: []
+  - title: Direct SQL access
+    content: Write queries as simple or complex as you please
+    image: ''
+    actions: []
+  - title: One click ETL
+    content: Get access to your data from business systems with one click
+    image: ''
+    actions: []
 - template: section_cta
   type: section_cta
   title: Try Aika for free
