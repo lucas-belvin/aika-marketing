@@ -89,7 +89,7 @@ sections:
   type: section_cta
   title: Try Aika for free
   actions:
-  - label: Get Started
+  - label: Try for free
     url: "/learn-more"
   section_id: ''
   subtitle: ''
