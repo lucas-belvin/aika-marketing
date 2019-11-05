@@ -11,7 +11,7 @@ const urlPropsQueryConfig = {
     c: { type: UrlQueryParamTypes.string },
 };
 
-export default class Landing extends React.Component {
+class Landing extends React.Component {
     static propTypes = {
         // URL props are automatically decoded and passed in based on the config
         c: PropTypes.string,
@@ -65,3 +65,4 @@ export default class Landing extends React.Component {
         );
     }
 }
+export default addUrlProps({ urlPropsQueryConfig })(Landing);
