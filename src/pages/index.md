@@ -15,12 +15,13 @@ sections:
   actions:
   - label: Learn more
     url: https://www.getaika.com/learn-more
-  campaign: sales
+  campaign: ''
+  classes: ''
 - template: section_features
   bg: gray
   type: section_features
   section_id: ''
-  campaign: sales
+  campaign: ''
   title: ''
   subtitle: ''
   featureslist:
@@ -39,19 +40,19 @@ sections:
     image: ''
     actions: []
   - title: Minutes
-    content: Stop worrying you missed something. Meetings minutes can be browsed and searched by
-      anyone.
+    content: Stop worrying you missed something. Meetings minutes can be browsed and
+      searched by anyone.
     image: ''
     actions: []
   - title: Action items
-    content: A complete overview of all the outstanding action items per person, meeting, team or   
-      the entire organization.
+    content: A complete overview of all the outstanding action items per person, meeting,
+      team or the entire organization.
     image: ''
-    actions: [] 
+    actions: []
   - title: Warnings
     content: Get advance warning when your team has too many distractions planned.
     image: ''
-    actions: [] 
+    actions: []
 menus:
   main:
     title: Home
