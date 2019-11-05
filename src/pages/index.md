@@ -15,7 +15,7 @@ sections:
   actions:
   - label: Learn more
     url: https://www.getaika.com/contact
-  classes: sales
+  classes: ''
 - template: section_features
   bg: gray
   type: section_features
