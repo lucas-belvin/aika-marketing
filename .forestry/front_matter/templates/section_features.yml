@@ -8,6 +8,10 @@ fields:
   label: Element ID of this section
   description: The element ID can be used to link to this section from another section
 - type: text
+  name: classes
+  description: Additional classes for the top level element
+  label: Element Classes of this section
+- type: text
   name: title
   label: Title
   description: The title of this section
