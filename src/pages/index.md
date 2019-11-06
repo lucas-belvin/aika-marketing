@@ -3,6 +3,64 @@ title: Home
 sections:
 - template: section_herograph
   type: section_herograph
+  campaign: eng
+  background_image: "/images/image-from-rawpixel-id-385975-jpeg-1.jpg"
+  section_id: ''
+  title: Make time. Reduce ineffective meetings.
+  content: Get full insight into the productivity of your team and use insights to drive 
+    and measure efficiency improvement. Instead of hiring more, first make sure you are 
+    getting the most out of your existing team. 
+  actions:
+  - label: Try for free
+    url: "/learn-more"
+- template: section_features
+  bg: gray
+  type: section_features
+  section_id: ''
+  campaign: default
+  title: ''
+  subtitle: ''
+  featureslist:
+  - title: Analyze
+    content: Analyze productivity data from Git, Google Calendar, Jira, Slack with a 
+      one-click integration using pre-built charts as well as direct access your data
+    image: ''
+    actions: []
+  - title: Enhance data
+    content: Send automated post-meeting surveys with Slack and email to find out
+      who’s organizing unproductive internal meetings.
+    image: ''
+    actions: []
+  - title: Organizing best practices
+    content: Help your team organize effective meetings using industry best practices
+    image: ''
+    actions: []
+  - title: Filter unnecessary meetings
+    content: Make sure you and everyone else knows why they are joining a meeting and what 
+      is expected of them.
+    image: ''
+    actions: []
+  - title: Minutes
+    content: Stop worrying you missed something. Meetings minutes can be browsed and
+      searched by anyone.
+    image: ''
+    actions: []
+  - title: Action items
+    content: A complete overview of all the outstanding action items per person, meeting,
+      team or the entire organization.
+    image: ''
+    actions: []
+  - title: Standup support
+    content: Tooling available for every type of agile meeting. Store and fill in standup 
+      notes and show related lines of committed code
+    image: ''
+    actions: []
+  - title: Warnings
+    content: Get advance warning when your team has too many distractions planned.
+    image: ''
+    actions: []
+- template: section_herograph
+  type: section_herograph
   section_id: ''
   title: Understand how reps spend time. Sell more.
   content: |-
@@ -15,7 +73,7 @@ sections:
   actions:
   - label: Try for free
     url: "/learn-more"
-  campaign: default
+  campaign: sales
 - template: section_features
   bg: gray
   type: section_features
@@ -39,8 +97,8 @@ sections:
     image: ''
     actions: []
   - title: Filter unnecessary meetings
-    content: Make sure you and everyone else knows why they are joining a meeting and what is 
-      expected of them.
+    content: Make sure you and everyone else knows why they are joining a meeting and what 
+      is expected of them.
     image: ''
     actions: []
   - title: Minutes
@@ -78,8 +136,9 @@ sections:
   subtitle: ''
   featureslist:
   - title: Analyze
-    content: Use data from reps’ calendars, email, Datahug and Salesforce to get insight
-      in your team
+    content: Analyze productivity data from Git, Google Calendar, Jira, Slack with a 
+      one-click integration using pre-built charts as well as direct access to SQL and an 
+      auto-provisioned BI account.
     image: ''
     actions: []
   - title: Enhance data
@@ -107,8 +166,8 @@ sections:
     image: ''
     actions: []
   - title: Standup support
-    content: Tooling available for every type of agile meeting. Store and fill in standup notes and 
-      show related lines of committed code
+    content: Tooling available for every type of agile meeting. Store and fill in standup 
+      notes and show related lines of committed code
     image: ''
     actions: []
   - title: Warnings
