@@ -1,9 +1,15 @@
 import React from 'react';
 import _ from 'lodash';
 
-import {htmlToReact, markdownify} from '../utils';
+import {htmlToReact, markdownify, sendEvent} from '../utils';
 
 export default class SectionContact extends React.Component {
+    handleSubmit = () => {
+      sendEvent('Form Submited', {
+        'form': 'subscribe'
+      })
+    }
+    
     render() {
         let section = _.get(this.props, 'section');
         return (
@@ -21,7 +27,7 @@ export default class SectionContact extends React.Component {
               <div className="block-content inner-medium">
                 {markdownify(_.get(section, 'content'))}
                 <form name="contactForm" method="POST" netlifyHoneypot="bot-field" data-netlify="true" id="contact-form"
-                  className="contact-form">
+                  className="contact-form" onSubmit={this.handleSubmit}>
                   <p className="screen-reader-text">
                     <label>Don't fill this out if you're human: <input name="bot-field" /></label>
                   </p>
