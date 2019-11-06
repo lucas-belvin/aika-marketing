@@ -3,7 +3,7 @@ title: Home
 sections:
 - template: section_herograph
   type: section_herograph
-  campaign: eng
+  campaign: default
   background_image: "/images/image-from-rawpixel-id-385975-jpeg-1.jpg"
   section_id: ''
   title: Make time. Reduce ineffective meetings.
@@ -78,7 +78,7 @@ sections:
   bg: gray
   type: section_features
   section_id: ''
-  campaign: default
+  campaign: sales
   title: ''
   subtitle: ''
   featureslist:
