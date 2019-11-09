@@ -39,7 +39,7 @@ sections:
   - title: Filter unnecessary meetings
     content: Make sure you and everyone else knows why they are joining a meeting
       and what is expected of them.
-    image: ''
+    image: "/images/undraw_filter_4kje (1).svg"
     actions: []
   - title: Minutes
     content: Stop worrying you missed something. Meetings minutes can be browsed and
