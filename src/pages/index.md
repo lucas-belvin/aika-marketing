@@ -44,7 +44,7 @@ sections:
   - title: Minutes
     content: Stop worrying you missed something. Meetings minutes can be browsed and
       searched by anyone.
-    image: ''
+    image: "/images/undraw_taking_notes_tjaf.svg"
     actions: []
   - title: Action items
     content: A complete overview of all the outstanding action items per person, meeting,
