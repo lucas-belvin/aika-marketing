@@ -58,7 +58,7 @@ sections:
     actions: []
   - title: Warnings
     content: Get advance warning when your team has too many distractions planned.
-    image: ''
+    image: "/images/undraw_notify_88a4.svg"
     actions: []
 - template: section_herograph
   type: section_herograph
