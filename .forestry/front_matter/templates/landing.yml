@@ -32,6 +32,6 @@ fields:
   config:
     required: true
 pages:
-- src/pages/learn-more.md
 - src/pages/index.md
+- src/pages/learn-more.md
 - src/pages/contact.md
