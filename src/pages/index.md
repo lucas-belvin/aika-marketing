@@ -30,7 +30,7 @@ sections:
   - title: Enhance data
     content: Send automated post-meeting surveys with Slack and email to find out
       who’s organizing unproductive internal meetings.
-    image: "/images/undraw_add_to_cart_vkjp.svg"
+    image: "/images/undraw_add_notes_8cfw.svg"
     actions: []
   - title: Organizing best practices
     content: Help your team organize effective meetings using industry best practices
