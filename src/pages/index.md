@@ -34,7 +34,7 @@ sections:
     actions: []
   - title: Organizing best practices
     content: Help your team organize effective meetings using industry best practices
-    image: "/images/undraw_Organizing_projects_0p9a.svg"
+    image: "/images/undraw_Organizing_projects_0p9a (1).svg"
     actions: []
   - title: Filter unnecessary meetings
     content: Make sure you and everyone else knows why they are joining a meeting
