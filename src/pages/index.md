@@ -25,7 +25,7 @@ sections:
     content: Analyze productivity data from Git, Google Calendar, Jira, Slack with
       a one-click integration using pre-built charts as well as direct access your
       data
-    image: "/images/undraw_personal_goals_edgd.svg"
+    image: "/images/undraw_personal_goals_edgd (1).svg"
     actions: []
   - title: Enhance data
     content: Send automated post-meeting surveys with Slack and email to find out
