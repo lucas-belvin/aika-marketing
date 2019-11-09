@@ -7,9 +7,9 @@ sections:
   background_image: "/images/image-from-rawpixel-id-385975-jpeg-1.jpg"
   section_id: ''
   title: Make time. Reduce ineffective meetings.
-  content: Get full insight into the productivity of your team and use insights to drive 
-    and measure efficiency improvement. Instead of hiring more, first make sure you are 
-    getting the most out of your existing team. 
+  content: Get full insight into the productivity of your team and use insights to
+    drive and measure efficiency improvement. Instead of hiring more, first make sure
+    you are getting the most out of your existing team.
   actions:
   - label: Try for free
     url: "/learn-more"
@@ -22,9 +22,10 @@ sections:
   subtitle: ''
   featureslist:
   - title: Analyze
-    content: Analyze productivity data from Git, Google Calendar, Jira, Slack with a 
-      one-click integration using pre-built charts as well as direct access your data
-    image: ''
+    content: Analyze productivity data from Git, Google Calendar, Jira, Slack with
+      a one-click integration using pre-built charts as well as direct access your
+      data
+    image: "/images/undraw_personal_goals_edgd.svg"
     actions: []
   - title: Enhance data
     content: Send automated post-meeting surveys with Slack and email to find out
@@ -36,8 +37,8 @@ sections:
     image: ''
     actions: []
   - title: Filter unnecessary meetings
-    content: Make sure you and everyone else knows why they are joining a meeting and what 
-      is expected of them.
+    content: Make sure you and everyone else knows why they are joining a meeting
+      and what is expected of them.
     image: ''
     actions: []
   - title: Minutes
@@ -51,8 +52,8 @@ sections:
     image: ''
     actions: []
   - title: Standup support
-    content: Tooling available for every type of agile meeting. Store and fill in standup 
-      notes and show related lines of committed code
+    content: Tooling available for every type of agile meeting. Store and fill in
+      standup notes and show related lines of committed code
     image: ''
     actions: []
   - title: Warnings
@@ -97,8 +98,8 @@ sections:
     image: ''
     actions: []
   - title: Filter unnecessary meetings
-    content: Make sure you and everyone else knows why they are joining a meeting and what 
-      is expected of them.
+    content: Make sure you and everyone else knows why they are joining a meeting
+      and what is expected of them.
     image: ''
     actions: []
   - title: Minutes
@@ -136,9 +137,9 @@ sections:
   subtitle: ''
   featureslist:
   - title: Analyze
-    content: Analyze productivity data from Git, Google Calendar, Jira, Slack with a 
-      one-click integration using pre-built charts as well as direct access to SQL and an 
-      auto-provisioned BI account.
+    content: Analyze productivity data from Git, Google Calendar, Jira, Slack with
+      a one-click integration using pre-built charts as well as direct access to SQL
+      and an auto-provisioned BI account.
     image: ''
     actions: []
   - title: Enhance data
@@ -151,8 +152,8 @@ sections:
     image: ''
     actions: []
   - title: Filter unnecessary meetings
-    content: Make sure you and everyone else knows why they are joining a meeting and what is 
-      expected of them.
+    content: Make sure you and everyone else knows why they are joining a meeting
+      and what is expected of them.
     image: ''
     actions: []
   - title: Minutes
@@ -166,8 +167,8 @@ sections:
     image: ''
     actions: []
   - title: Standup support
-    content: Tooling available for every type of agile meeting. Store and fill in standup 
-      notes and show related lines of committed code
+    content: Tooling available for every type of agile meeting. Store and fill in
+      standup notes and show related lines of committed code
     image: ''
     actions: []
   - title: Warnings
@@ -198,17 +199,18 @@ sections:
   subtitle: ''
   featureslist:
   - title: Pre-built analysis
-    content: Use analyses built by the Aika team and by the Aika community to quickly extract 
-      meaning from your data.
+    content: Use analyses built by the Aika team and by the Aika community to quickly
+      extract meaning from your data.
     image: ''
     actions: []
   - title: Marketplace
-    content: Build an analysis on your data and share the analysis (but not your data) so others can apply it to their own data
+    content: Build an analysis on your data and share the analysis (but not your data)
+      so others can apply it to their own data
     image: ''
     actions: []
   - title: Builtin BI
-    content: Get access to an easy to use BI interface, already connected to a personal database 
-      created for you
+    content: Get access to an easy to use BI interface, already connected to a personal
+      database created for you
     image: ''
     actions: []
   - title: Direct SQL access
