@@ -49,7 +49,7 @@ sections:
   - title: Action items
     content: A complete overview of all the outstanding action items per person, meeting,
       team or the entire organization.
-    image: ''
+    image: "/images/undraw_done_a34v.svg"
     actions: []
   - title: Standup support
     content: Tooling available for every type of agile meeting. Store and fill in
