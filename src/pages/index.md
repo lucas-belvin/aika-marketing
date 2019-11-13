@@ -219,7 +219,7 @@ sections:
     actions: []
   - title: One click ETL
     content: Get access to your data from business systems with one click
-    image: ''
+    image: "/images/undraw_fast_loading_0lbh.svg"
     actions: []
 - template: section_cta
   type: section_cta
