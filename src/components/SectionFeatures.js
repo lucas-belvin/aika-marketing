@@ -5,9 +5,10 @@ import {htmlToReact, safePrefix, markdownify} from '../utils';
 import CtaButtons from './CtaButtons';
 
 export default class SectionFeatures extends React.Component {
+
     render() {
         return (
-            <section id={_.get(this.props, 'section.section_id')} className={'block features-block bg-' + _.get(this.props, 'section.bg') + ' outer' + _.get(this.props, 'section.classes')}>
+            <section id={_.get(this.props, 'section.section_id')} className={'block features-block bg-' + _.get(this.props, 'section.bg') + ' outer' + _.get(this.props, 'section.classes')} >
               <div className="block-header inner-small">
                 {_.get(this.props, 'section.title') && 
                 <h2 className="block-title">{_.get(this.props, 'section.title')}</h2>
@@ -24,11 +25,11 @@ export default class SectionFeatures extends React.Component {
                 <div key={feature_idx} className="block-item">
                   <div className="grid">
                     {_.get(feature, 'image') && 
-                    <div className="cell block-preview">
+                    <div className="cell block-preview" data-aos={feature_idx % 2 ? 'fade-right' : 'fade-left'}>
                       <img src={safePrefix(_.get(feature, 'image'))} alt={_.get(feature, 'title')} />
                     </div>
                     }
-                    <div className="cell block-content">
+                    <div className="cell block-content" data-aos={feature_idx % 2 ? 'fade-left' : 'fade-right'}>
                       <h3 className="block-title underline">{_.get(feature, 'title')}</h3>
                       <div className="block-copy">
                         {markdownify(_.get(feature, 'content'))}

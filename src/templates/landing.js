@@ -3,6 +3,8 @@ import _ from 'lodash';
 import PropTypes from 'prop-types';
 import { addUrlProps, UrlQueryParamTypes } from 'react-url-query';
 import Cookies from 'js-cookie';
+import AOS from 'aos'
+import 'aos/dist/aos.css';
 
 
 import components, {Layout} from '../components/index';
@@ -12,6 +14,17 @@ const urlPropsQueryConfig = {
 };
 
 class Landing extends React.Component {
+    componentDidMount(){
+        if (typeof window !== `undefined`) {
+            AOS.init({
+                offset: -100,
+                duration: 1500,
+                disable: 'mobile'
+            });
+        }
+    };
+
+
     static propTypes = {
         // URL props are automatically decoded and passed in based on the config
         c: PropTypes.string,
@@ -27,6 +40,7 @@ class Landing extends React.Component {
     }
 
     render() {
+
         const { c } = this.props;
         let campaign = c;
         if (c === 'default') {
