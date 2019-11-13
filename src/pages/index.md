@@ -206,20 +206,20 @@ sections:
   - title: Marketplace
     content: Build an analysis on your data and share the analysis (but not your data)
       so others can apply it to their own data
-    image: ''
+    image: "/images/undraw_apps_m7mh.svg"
     actions: []
   - title: Builtin BI
     content: Get access to an easy to use BI interface, already connected to a personal
       database created for you
-    image: ''
+    image: "/images/undraw_segment_uwu1.svg"
     actions: []
   - title: Direct SQL access
     content: Write queries as simple or complex as you please
-    image: ''
+    image: "/images/undraw_code_review_l1q9.svg"
     actions: []
   - title: One click ETL
     content: Get access to your data from business systems with one click
-    image: ''
+    image: "/images/undraw_fast_loading_0lbh.svg"
     actions: []
 - template: section_cta
   type: section_cta
