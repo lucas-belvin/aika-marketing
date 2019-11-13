@@ -19,7 +19,6 @@ class Landing extends React.Component {
             AOS.init({
                 offset: -100,
                 duration: 1500,
-                disable: 'mobile'
             });
         }
     };
