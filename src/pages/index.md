@@ -206,7 +206,7 @@ sections:
   - title: Marketplace
     content: Build an analysis on your data and share the analysis (but not your data)
       so others can apply it to their own data
-    image: ''
+    image: "/images/undraw_apps_m7mh.svg"
     actions: []
   - title: Builtin BI
     content: Get access to an easy to use BI interface, already connected to a personal
