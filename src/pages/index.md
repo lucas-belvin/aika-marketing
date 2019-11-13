@@ -86,35 +86,35 @@ sections:
   - title: Analyze
     content: Use data from reps’ calendars, email, Datahug and Salesforce to get insight
       in your team
-    image: ''
+    image: "/images/undraw_personal_goals_edgd (1).svg"
     actions: []
   - title: Enhance data
     content: Send automated post-meeting surveys with Slack and email to find out
       who’s organizing unproductive internal meetings.
-    image: ''
+    image: "/images/undraw_add_notes_8cfw.svg"
     actions: []
   - title: Organizing best practices
     content: Help your team organize effective meetings using industry best practices
-    image: ''
+    image: "/images/undraw_Organizing_projects_0p9a (1).svg"
     actions: []
   - title: Filter unnecessary meetings
     content: Make sure you and everyone else knows why they are joining a meeting
       and what is expected of them.
-    image: ''
+    image: "/images/undraw_filter_4kje (1).svg"
     actions: []
   - title: Minutes
     content: Stop worrying you missed something. Meetings minutes can be browsed and
       searched by anyone.
-    image: ''
+    image: "/images/undraw_taking_notes_tjaf.svg"
     actions: []
   - title: Action items
     content: A complete overview of all the outstanding action items per person, meeting,
       team or the entire organization.
-    image: ''
+    image: "/images/undraw_done_a34v.svg"
     actions: []
   - title: Warnings
     content: Get advance warning when your team has too many distractions planned.
-    image: ''
+    image: "/images/undraw_notify_88a4.svg"
     actions: []
 - template: section_herograph
   type: section_herograph
@@ -140,40 +140,40 @@ sections:
     content: Analyze productivity data from Git, Google Calendar, Jira, Slack with
       a one-click integration using pre-built charts as well as direct access to SQL
       and an auto-provisioned BI account.
-    image: ''
+    image: "/images/undraw_personal_goals_edgd (1).svg"
     actions: []
   - title: Enhance data
     content: Send automated post-meeting surveys with Slack and email to find out
       who’s organizing unproductive internal meetings.
-    image: ''
+    image: "/images/undraw_add_notes_8cfw.svg"
     actions: []
   - title: Organizing best practices
     content: Help your team organize effective meetings using industry best practices
-    image: ''
+    image: "/images/undraw_Organizing_projects_0p9a (1).svg"
     actions: []
   - title: Filter unnecessary meetings
     content: Make sure you and everyone else knows why they are joining a meeting
       and what is expected of them.
-    image: ''
+    image: "/images/undraw_filter_4kje (1).svg"
     actions: []
   - title: Minutes
     content: Stop worrying you missed something. Meetings minutes can be browsed and
       searched by anyone.
-    image: ''
+    image: "/images/undraw_taking_notes_tjaf.svg"
     actions: []
   - title: Action items
     content: A complete overview of all the outstanding action items per person, meeting,
       team or the entire organization.
-    image: ''
+    image: "/images/undraw_done_a34v.svg"
     actions: []
   - title: Standup support
     content: Tooling available for every type of agile meeting. Store and fill in
       standup notes and show related lines of committed code
-    image: ''
+    image: "/images/undraw_done_a34v.svg"
     actions: []
   - title: Warnings
     content: Get advance warning when your team has too many distractions planned.
-    image: ''
+    image: "/images/undraw_notify_88a4.svg"
     actions: []
 - template: section_herograph
   type: section_herograph
@@ -201,7 +201,7 @@ sections:
   - title: Pre-built analysis
     content: Use analyses built by the Aika team and by the Aika community to quickly
       extract meaning from your data.
-    image: ''
+    image: "/images/undraw_personal_goals_edgd (1).svg"
     actions: []
   - title: Marketplace
     content: Build an analysis on your data and share the analysis (but not your data)
