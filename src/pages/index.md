@@ -169,7 +169,7 @@ sections:
   - title: Standup support
     content: Tooling available for every type of agile meeting. Store and fill in
       standup notes and show related lines of committed code
-    image: "/images/undraw_done_a34v.svg"
+    image: "/images/undraw_things_to_say_ewwb.svg"
     actions: []
   - title: Warnings
     content: Get advance warning when your team has too many distractions planned.
