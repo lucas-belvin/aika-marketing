@@ -193,7 +193,7 @@ sections:
 - template: section_features
   bg: gray
   type: section_features
-  section_id: ''
+  section_id: bi
   campaign: bi
   title: ''
   subtitle: ''
