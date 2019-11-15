@@ -255,8 +255,9 @@ sections:
     image: "/images/undraw_customer_survey_f9ur.svg"
     actions: []
   - title: Reward
-    content: ''
-    image: ''
+    content: Reward people for organizing a good meeting and arriving on time with
+      Aika points that can be converted to Amazon gift cards
+    image: "/images/undraw_gift_card_6ekc.svg"
     actions: []
 - template: section_cta
   type: section_cta
