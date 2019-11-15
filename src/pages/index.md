@@ -221,6 +221,25 @@ sections:
     content: Get access to your data from business systems with one click
     image: "/images/undraw_fast_loading_0lbh.svg"
     actions: []
+- template: section_herograph
+  type: section_herograph
+  campaign: survey
+  title: Automated one click surveys
+  content: Drastically improve the efficiency of your organization by finding out
+    how much time is spent in unproductive meetings, and who should improve on meeting
+    organization.
+  actions:
+  - label: Try for free
+    url: "/learn-more"
+  section_id: ''
+- template: section_features
+  bg: gray
+  type: section_features
+  section_id: ''
+  campaign: ''
+  title: ''
+  subtitle: ''
+  featureslist: []
 - template: section_cta
   type: section_cta
   title: Try Aika for free
