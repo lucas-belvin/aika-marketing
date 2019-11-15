@@ -247,7 +247,7 @@ sections:
       to automatically send a mini meeting-survey to get a better understand of the
       quality of meetings.
   - title: Analyse
-    content: ''
+    content: Get full insight into the quality of meetings at your company
     image: "/images/undraw_personal_goals_edgd (1).svg"
     actions: []
   - title: Review high and low value meeting
