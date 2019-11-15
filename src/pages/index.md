@@ -260,6 +260,45 @@ sections:
       Aika points that can be converted to Amazon gift cards
     image: "/images/undraw_gift_card_6ekc.svg"
     actions: []
+- template: section_herograph
+  type: section_herograph
+  campaign: ai
+  background_image: "/images/image-from-rawpixel-id-385975-jpeg-1.jpg"
+  title: Automated one click surveys
+  content: Drastically improve the efficiency of your organization by finding out
+    how much time is spent in unproductive meetings, and who should improve on meeting
+    organization.
+  actions:
+  - label: Try for free
+    url: "/learn-more"
+  section_id: ''
+- template: section_features
+  bg: gray
+  type: section_features
+  section_id: ''
+  campaign: ai
+  title: ''
+  subtitle: ''
+  featureslist:
+  - title: Send automated mini meeting-surveys
+    image: "/images/undraw_customer_survey_f9ur.svg"
+    actions: []
+    content: Use Slack, email, Skype for business or other popular communication platforms
+      to automatically send a mini meeting-survey to get a better understand of the
+      quality of meetings.
+  - title: Analyse
+    content: Get full insight into the quality of meetings at your company
+    image: "/images/undraw_personal_goals_edgd (1).svg"
+    actions: []
+  - title: Review high and low value meeting
+    content: 'Get a weekly overview of the highest and lowest-rated recurring meetings. '
+    image: "/images/undraw_customer_survey_f9ur.svg"
+    actions: []
+  - title: Reward
+    content: Reward people for organizing a good meeting and arriving on time with
+      Aika points that can be converted to Amazon gift cards
+    image: "/images/undraw_gift_card_6ekc.svg"
+    actions: []
 - template: section_cta
   type: section_cta
   title: Try Aika for free
