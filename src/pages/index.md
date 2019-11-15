@@ -236,7 +236,7 @@ sections:
   bg: gray
   type: section_features
   section_id: ''
-  campaign: ''
+  campaign: s
   title: ''
   subtitle: ''
   featureslist: []
