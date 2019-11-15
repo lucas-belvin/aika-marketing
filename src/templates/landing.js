@@ -69,10 +69,6 @@ class Landing extends React.Component {
 
     render() {
 
-
-
-
-
         return (
             <Layout {...this.props}>
             {_.map(_.get(this.props, 'pageContext.frontmatter.sections'), (section, section_idx) => {
