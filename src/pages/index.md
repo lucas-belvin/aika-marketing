@@ -246,6 +246,10 @@ sections:
     content: Use Slack, email, Skype for business or other popular communication platforms
       to automatically send a mini meeting-survey to get a better understand of the
       quality of meetings.
+  - title: Analyse
+    content: ''
+    image: "/images/undraw_personal_goals_edgd (1).svg"
+    actions: []
 - template: section_cta
   type: section_cta
   title: Try Aika for free
