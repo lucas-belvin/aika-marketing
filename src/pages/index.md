@@ -250,6 +250,14 @@ sections:
     content: ''
     image: "/images/undraw_personal_goals_edgd (1).svg"
     actions: []
+  - title: Review high and low value meeting
+    content: 'Get a weekly overview of the highest and lowest-rated recurring meetings. '
+    image: "/images/undraw_customer_survey_f9ur.svg"
+    actions: []
+  - title: Reward
+    content: ''
+    image: ''
+    actions: []
 - template: section_cta
   type: section_cta
   title: Try Aika for free
