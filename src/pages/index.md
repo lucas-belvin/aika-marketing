@@ -265,8 +265,8 @@ sections:
   campaign: ai
   background_image: "/images/image-from-rawpixel-id-385975-jpeg-1.jpg"
   title: Action items that actually get acted upon
-  content: 'Help action items owners, project managers keep track of their action
-    items directly created from within a Google Doc. '
+  content: 'Help action items owners and project managers keep track of action items
+    directly created from within a Google Doc and managed in the tool of your liking. '
   actions:
   - label: Try for free
     url: "/learn-more"
