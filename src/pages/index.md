@@ -240,7 +240,7 @@ sections:
   title: ''
   subtitle: ''
   featureslist:
-  - title: Send mini meeting-surveys
+  - title: Send automated mini meeting-surveys
     image: "/images/undraw_customer_survey_f9ur.svg"
     actions: []
     content: Use Slack, email, Skype for business or other popular communication platforms
