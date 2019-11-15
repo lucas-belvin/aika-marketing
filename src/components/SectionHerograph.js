@@ -8,106 +8,120 @@ import {safePrefix, markdownify, Link} from '../utils';
 
 
 
-var allData = [{
-  x: 0,
-  y: 19
-},
-{
-  x: 1,
-  y: 15
-},
-{
-  x: 2,
-  y: 3
-},
-{
-  x: 3,
-  y: 5
-},
-{
-  x: 4,
-  y: 2
-},
-{
-  x: 5,
-  y: 3
-},
-{
-  x: 6,
-  y: 1
-},
-];
-defaults.global.defaultFontColor = 'white';
-defaults.global.defaultFontSize = 16;
 
-var options = {
-  type: 'line',
-  data: {
-    datasets: [{
-      label: 'Average meeting hours per week',
-      data: [allData[0]],
-      borderWidth: 3,
-      borderColor: 'red',
-      backgroundColor: '#ff000066',
-      fill: true
-    }, ]
-  },
-  options: {
-    scales: {
-      xAxes: [{
-        type: 'linear',
-        scaleLabel: {
-          display: true,
-          labelString: 'Weeks',
-        },
-        ticks: {
-          min: 0,
-          max: 6
-        },
-        gridLines: {
-          display: false
-        }
-      }],
-      yAxes: [{
-        ticks: {
-          min: 0,
-          max: 25
-        },
-        gridLines: {
-          display: false
-        },
-        scaleLabel: {
-          display: true,
-          labelString: 'Hours',
-        },
 
-      }]
-    },
-  },
-};
-
-const next = () => {
-  const chart = _.get(window, 'myChart.chartInstance');
-  const data = _.get(chart, 'data.datasets[0].data');
-  if(data) {
-    const count = data.length;
-    data[count] = data[count - 1];
-    chart.update({
-      duration: 0
-    });
-    data[count] = allData[count];
-    chart.update();
-    if (count < allData.length) {
-      setTimeout(next, 1000);
-    }
-  }
-}
 
 
 
 export default class SectionHerograph extends React.Component {
+    constructor() {
+      super()
+      this.myChart = undefined;
+      this.allData = [{
+        x: 0,
+        y: 19
+      },
+      {
+        x: 1,
+        y: 15
+      },
+      {
+        x: 2,
+        y: 3
+      },
+      {
+        x: 3,
+        y: 5
+      },
+      {
+        x: 4,
+        y: 2
+      },
+      {
+        x: 5,
+        y: 3
+      },
+      {
+        x: 6,
+        y: 1
+      },
+      ];
+      defaults.global.defaultFontColor = 'white';
+      defaults.global.defaultFontSize = 16;
+      
+      this.options = {
+        type: 'line',
+        data: {
+          datasets: [{
+            label: 'Average meeting hours per week',
+            data: [this.allData[0]],
+            borderWidth: 3,
+            borderColor: 'red',
+            backgroundColor: '#ff000066',
+            fill: true
+          }, ]
+        },
+        options: {
+          scales: {
+            xAxes: [{
+              type: 'linear',
+              scaleLabel: {
+                display: true,
+                labelString: 'Weeks',
+              },
+              ticks: {
+                min: 0,
+                max: 6
+              },
+              gridLines: {
+                display: false
+              }
+            }],
+            yAxes: [{
+              ticks: {
+                min: 0,
+                max: 25
+              },
+              gridLines: {
+                display: false
+              },
+              scaleLabel: {
+                display: true,
+                labelString: 'Hours',
+              },
+      
+            }]
+          },
+        },
+      };
+    }
+
+    next() {
+      const chart = _.get(this.myChart, 'chartInstance');
+      const data = _.get(chart, 'data.datasets[0].data');
+
+      if(data) {
+        const count = data.length;
+        data[count] = data[count - 1];
+        chart.update({
+          duration: 0
+        });
+        data[count] = this.allData[count];
+        chart.update();
+        if (count < this.allData.length) {
+          setTimeout(() => {
+            this.next();
+          }, 1000);
+        }
+      }
+    }
+  
+
+
     componentDidMount() {
-      setTimeout(next, 1000);
+      setTimeout(() => {
+        this.next();
+      }, 1000);
     }
 
     render() {
@@ -118,9 +132,11 @@ export default class SectionHerograph extends React.Component {
                   <div className="grid row"> 
                     <div className="cell block-preview graph">
                       <Line 
-                        data={options.data} 
-                        options={options.options}
-                        ref={(reference) => window.myChart = reference }
+                        data={this.options.data} 
+                        options={this.options.options}
+                        ref={(reference) => {
+                          this.myChart = reference;
+                        }}
                         />
                     </div>
                     <div className="cell block-content">

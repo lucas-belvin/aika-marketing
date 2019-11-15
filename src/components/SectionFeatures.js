@@ -4,6 +4,14 @@ import _ from 'lodash';
 import {htmlToReact, safePrefix, markdownify} from '../utils';
 import CtaButtons from './CtaButtons';
 
+class Img extends React.Component {
+  
+
+  render() {
+    return <div><img src={this.props.src} alt={this.props.alt} /></div>
+  }
+}
+
 export default class SectionFeatures extends React.Component {
 
     render() {
@@ -22,11 +30,11 @@ export default class SectionFeatures extends React.Component {
               {_.get(this.props, 'section.featureslist') && 
               <div className="inner">
                 {_.map(_.get(this.props, 'section.featureslist'), (feature, feature_idx) => (
-                <div key={feature_idx} className="block-item">
+                <div key={safePrefix(_.get(feature, 'image'))} className="block-item">
                   <div className="grid">
                     {_.get(feature, 'image') && 
                     <div className="cell block-preview" data-aos={feature_idx % 2 ? 'fade-right' : 'fade-left'}>
-                      <img src={safePrefix(_.get(feature, 'image'))} alt={_.get(feature, 'title')} />
+                      <Img key={safePrefix(_.get(feature, 'image'))} src={safePrefix(_.get(feature, 'image'))} alt={_.get(feature, 'title')} />
                     </div>
                     }
                     <div className="cell block-content" data-aos={feature_idx % 2 ? 'fade-left' : 'fade-right'}>
