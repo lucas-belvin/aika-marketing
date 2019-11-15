@@ -265,9 +265,8 @@ sections:
   campaign: ai
   background_image: "/images/image-from-rawpixel-id-385975-jpeg-1.jpg"
   title: Action items that actually get acted upon
-  content: Drastically improve the efficiency of your organization by finding out
-    how much time is spent in unproductive meetings, and who should improve on meeting
-    organization.
+  content: 'Help action items owners, project managers keep track of their action
+    items directly created from within a Google Doc. '
   actions:
   - label: Try for free
     url: "/learn-more"
