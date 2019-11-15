@@ -264,7 +264,7 @@ sections:
   type: section_herograph
   campaign: ai
   background_image: "/images/image-from-rawpixel-id-385975-jpeg-1.jpg"
-  title: Automated one click surveys
+  title: Action items that actually get acted upon
   content: Drastically improve the efficiency of your organization by finding out
     how much time is spent in unproductive meetings, and who should improve on meeting
     organization.
