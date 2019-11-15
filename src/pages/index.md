@@ -223,7 +223,7 @@ sections:
     actions: []
 - template: section_herograph
   type: section_herograph
-  campaign: survey
+  campaign: s
   title: Automated one click surveys
   content: Drastically improve the efficiency of your organization by finding out
     how much time is spent in unproductive meetings, and who should improve on meeting
@@ -239,7 +239,13 @@ sections:
   campaign: s
   title: ''
   subtitle: ''
-  featureslist: []
+  featureslist:
+  - title: Send mini meeting-surveys
+    image: "/images/undraw_customer_survey_f9ur.svg"
+    actions: []
+    content: Use Slack, email, Skype for business or other popular communication platforms
+      to automatically send a mini meeting-survey to get a better understand of the
+      quality of meetings.
 - template: section_cta
   type: section_cta
   title: Try Aika for free
