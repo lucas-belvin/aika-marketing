@@ -280,7 +280,7 @@ sections:
   subtitle: ''
   featureslist:
   - title: Google Doc integration
-    image: "/images/undraw_customer_survey_f9ur.svg"
+    image: "/images/undraw_google_docs_jf93.svg"
     actions: []
     content: Continue using the same tools you were already using during meetings,
       but make sure action items never get forgotten
