@@ -288,7 +288,7 @@ sections:
     content: As an assignee, see all the action items you still have to do in one
       place. As an assigner or meeting participant see all the open action items others
       still have to do
-    image: "/images/undraw_personal_goals_edgd (1).svg"
+    image: "/images/undraw_prioritise_tgdh.svg"
     actions: []
   - title: Integrations with task tools
     content: Add all your action items to your favorite task management tools like
