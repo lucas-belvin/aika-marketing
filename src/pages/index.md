@@ -279,14 +279,14 @@ sections:
   title: ''
   subtitle: ''
   featureslist:
-  - title: Send automated mini meeting-surveys
+  - title: Google Doc integration
     image: "/images/undraw_customer_survey_f9ur.svg"
     actions: []
-    content: Use Slack, email, Skype for business or other popular communication platforms
-      to automatically send a mini meeting-survey to get a better understand of the
-      quality of meetings.
-  - title: Analyze
-    content: Get full insight into the quality of meetings at your company
+    content: Continue using the same tools you were already using during meetings,
+      but make sure action items actually get created
+  - title: Overview of action items
+    content: As an assignee, see all the action items you still have to do in one
+      place. As an assigner see all the open action items others still have to do
     image: "/images/undraw_personal_goals_edgd (1).svg"
     actions: []
   - title: Review high and low value meeting
