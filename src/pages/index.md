@@ -283,20 +283,27 @@ sections:
     image: "/images/undraw_customer_survey_f9ur.svg"
     actions: []
     content: Continue using the same tools you were already using during meetings,
-      but make sure action items actually get created
+      but make sure action items never get forgotten
   - title: Overview of action items
     content: As an assignee, see all the action items you still have to do in one
-      place. As an assigner see all the open action items others still have to do
+      place. As an assigner or meeting participant see all the open action items others
+      still have to do
     image: "/images/undraw_personal_goals_edgd (1).svg"
     actions: []
-  - title: Review high and low value meeting
-    content: 'Get a weekly overview of the highest and lowest-rated recurring meetings. '
-    image: "/images/undraw_customer_survey_f9ur.svg"
+  - title: Integrations with task tools
+    content: Add all your action items to your favorite task management tools like
+      Trello, Jira or Asana
+    image: "/images/undraw_project_completed_w0oq.svg"
     actions: []
-  - title: Reward
-    content: Reward people for organizing a good meeting and arriving on time with
-      Aika points that can be converted to Amazon gift cards
-    image: "/images/undraw_gift_card_6ekc.svg"
+  - title: Analytics
+    content: Analyze the progress on your action items and immediately see when you
+      have capacity problem
+    image: "/images/undraw_personal_goals_edgd (1).svg"
+    actions: []
+  - title: Alerts
+    content: 'Get action item reminders and alerted when you are overloaded with action
+      items. '
+    image: "/images/undraw_notify_88a4.svg"
     actions: []
 - template: section_cta
   type: section_cta
