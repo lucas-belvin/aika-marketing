@@ -65,7 +65,7 @@ sections:
   section_id: ''
   title: Understand how reps spend time. Sell more.
   content: |-
-    In sales, time is money in the most literal sense. But understanding how reps spend time is no easy task. With Aika, you:
+    In sales, time is money in the most literal sense. But understanding how reps spend time is no easy task. With Proost, you:
 
     * Get insight straight from the source: Your reps' calendars
     * Learn how your top performers' calendars compare to the rest
@@ -199,7 +199,7 @@ sections:
   subtitle: ''
   featureslist:
   - title: Pre-built analysis
-    content: Use analyses built by the Aika team and by the Aika community to quickly
+    content: Use analyses built by the Proost team and by the Proost community to quickly
       extract meaning from your data.
     image: "/images/undraw_personal_goals_edgd (1).svg"
     actions: []
@@ -257,7 +257,7 @@ sections:
     actions: []
   - title: Reward
     content: Reward people for organizing a good meeting and arriving on time with
-      Aika points that can be converted to Amazon gift cards
+      Proost points that can be converted to Amazon gift cards
     image: "/images/undraw_gift_card_6ekc.svg"
     actions: []
 - template: section_herograph
@@ -296,12 +296,12 @@ sections:
     actions: []
   - title: Reward
     content: Reward people for organizing a good meeting and arriving on time with
-      Aika points that can be converted to Amazon gift cards
+      Proost points that can be converted to Amazon gift cards
     image: "/images/undraw_gift_card_6ekc.svg"
     actions: []
 - template: section_cta
   type: section_cta
-  title: Try Aika for free
+  title: Try Proost for free
   actions:
   - label: Try for free
     url: "/learn-more"

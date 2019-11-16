@@ -7,7 +7,7 @@ sections:
   type: section_shortcontact
   section_id: fake-door-contact
   title: Hello! Contact us to get started
-  content: We're happy to get you started with Aika. Please leave your email and we'll
+  content: We're happy to get you started with Proost. Please leave your email and we'll
     contact you shortly.
   subtitle: ''
 
